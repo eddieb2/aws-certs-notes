@@ -237,7 +237,7 @@ Common Cloud Services
 
 ---
 
-## **_SECTION 7: What is a Cloud Service Provider?_**
+## **_SECTION 7: Cloud Computing Responsibilities_**
 
 ---
 
