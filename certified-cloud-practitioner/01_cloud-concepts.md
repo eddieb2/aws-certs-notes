@@ -156,7 +156,7 @@
     -   Resources cannot be accessed using the internet
     -   Typically older large companies or owned by Government organizations
 
--   Hybrid Deployment
+-   Hybrid Deployment (When you think of Hybrid, think of Fin Tech Companies)
 
     -   Connects on-premises technology with cloud-based resources
     -   Great for established companies that had a dedicated data center but also wants to migrate processes over to the cloud
@@ -242,3 +242,198 @@ Common Cloud Services
 ---
 
 <br>
+
+<img src="https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg" />
+
+<br>
+<br>
+
+---
+
+## <b><i>SECTION 8</i>: Total Cost of Ownership</b>
+
+---
+
+<br>
+
+### What is Total Cost of Ownership?
+
+<br>
+
+    Total cost of ownership (TCO) is a financial estimate intended to help buyers and owners determine the direct and indirect costs of a product or system. It is a management accounting concept that can be used in full cost accounting or even ecological economics where it includes social costs.
+
+<br>
+AWS Provides the TCO Calculator service to help companies with this calculation.
+
+<br>
+
+---
+
+## <b><i>SECTION 9</i>: CAPEX vs OPEX</b>
+
+---
+
+<br>
+
+### CAPEX vs OPEX
+
+<br>
+
+### <b>Capital Expenditure (CAPEX)</b>
+
+Spending money upfront on physical infrastructure deducting that expense from your tax bill over time.
+
+-   Server Costs (computers)
+-   Storage Costs (hard drives)
+-   Network Costs (Routers, Cables, Switches)
+-   Backup and Archive Costs
+-   Disaster Recovery Costs
+-   Datacenter Costs (Rent, Cooling, Physical Security)
+-   Technical Personal
+-   With Capital Expenses, you have to guess upfront what you plan to spend
+
+### <b>Operational Expenditure (OPEX)</b>
+
+The costs associated with an on-premises data center that has shifted the cost to the service provider. The customer only has to be concerned with non-physical costs.
+
+-   Leasing Software and Customizing features
+-   Training Employees in Cloud Services
+-   Paying for Cloud Support
+-   Billing based on cloud metrics eg.
+-   compute usage
+-   storage usage
+-   With Operational Expenses you can try a product or service without investing in equipment
+
+<br>
+
+---
+
+## <b><i>SECTION 10</i>: Cloud Architecture Terminologies</b>
+
+---
+
+<br>
+
+### Cloud Architecture Terminologies
+
+-   <b>Availability</b> - Your ability to ensure service remains available - Highly Available (HA)
+-   <b>Scalability</b> - Your ability to grow rapidly or unimpeded
+-   <b>Elasticity</b> - Your ability to shrink and grow to meet the demand
+-   <b>Fault Tolerance</b> - Your ability to prevent a failure
+-   <b>Disaster Recovery</b> - Your ability to recover from failure - Highly Durable (DR)
+
+<br>
+
+## <b>1. High Availability</b>
+
+---
+
+<br>
+
+### What is High Availability (HA)?
+
+    Your ability for your service to remain available by ensuring there is no single point of failure and/or ensure a certain level of performance
+
+### How can you achieve High Availability?
+
+    Running your workload across multiple Availability Zones ensures that if 1 or 2 AZs become unavailable your service/applications remain available.
+
+### How can High Availability be implemented on AWS?
+
+    Using Elastic Load Balancer would assist in implementing High Availability
+
+Elastic Load Balancer ​
+A load balancer allows you to evenly distribute traffic to multiple servers in one or more data center. If a data center or server becomes unavailable (unhealthy) the load balancer will route the traffic to only available data centers with servers.​
+
+<br>
+
+## <b>2. High Scalability</b>
+
+---
+
+<br>
+
+### What is High Scalability?
+
+    Your ability to increase your capacity based on the increasing demand of traffic, memory and computing power
+
+### How is High Scalability defined?
+
+    Vertical Scaling is known as Scaling Up (When Upgrade to a bigger server)
+
+Horizontal Scaling is known as Scaling Out (When Add more servers of the same size)
+
+<br>
+
+## <b>3. High Elasticity</b>
+
+---
+
+<br>
+
+### What is High Elasticity?
+
+    Your ability to automatically increase or decrease your capacity based on the current demand of traffic, memory and computing power
+
+### How is Elasticity achieved?
+
+    Elasticity relies on Horizontal Scaling. Vertical Scaling is generally hard for traditional architecture so you’ll usually only see horizontal scaling described with Elasticity.
+
+Scaling Out — Add more servers of the same size
+
+Scaling In — Removing more servers of the same size
+
+### How can Elasticity be implemented in AWS?
+
+    Auto Scaling Groups (ASG) - are an AWS feature that will automatically add or remove servers based on scaling rules you define.
+
+<br>
+
+## <b>4. Fault Tolerance</b>
+
+---
+
+<br>
+
+### What is Highly Fault Tolerant?
+
+    The ability for your service to ensure there is no single point of failure. Preventing the chance of failure
+
+### What is a Fail-over?
+
+    Fail-overs are when you have a plan to shift traffic to a redundant system in case the primary system fails
+
+### How can Fault Tolerance be achieved?
+
+    A common example is having a copy (secondary) of your database where all ongoing changes are synced. The Secondary is not in-use until a failover occurs and it becomes the primary database.
+
+### How can Fault Tolerance be implemented using AWS?
+
+    RDS Multi-AZ - is when you run a duplicate standby database in another Availability Zone in case your primary database fails.
+
+<br>
+
+## <b>5. High Durability</b>
+
+---
+
+<br>
+
+### What is High Durability?
+
+    Your ability to recover from a disaster and to prevent the loss of data solutions that recover from a disaster is known as Disaster Recovery (DR)
+
+<br>
+
+### Questions you should be asking about your Disaster Recovery procedures:
+
+-   Do you have a backup?
+-   How fast can you restore that backup?
+-   Does your backup still work?
+-   How do you ensure current live data is not corrupt?
+
+<br>
+
+### CloudEndure Disaster Recovery
+
+    CloudEndure Disaster Recovery continuously replicates your machines into a low-cost staging area in your target AWS account and preferred Region enabling fast and reliable recovery in case of IT data center failures.
