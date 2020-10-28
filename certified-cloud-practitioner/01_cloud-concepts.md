@@ -1,10 +1,10 @@
-# <b>Cloud Concepts</b>
+# **_Cloud Concepts_**
 
 <br>
 
 ---
 
-## <b>SECTION 1: What is Cloud Computing?</b>
+## **_SECTION 1: What is Cloud Computing?_**
 
 ---
 
@@ -34,7 +34,7 @@
 
 ---
 
-## <b>SECTION 2: Six Advantages and Benefits</b>
+## **_SECTION 2: Six Advantages and Benefits_**
 
 ---
 
@@ -82,7 +82,7 @@
 
 ---
 
-## <b>SECTION 3: Cloud Computing models</b>
+## **_SECTION 3: Cloud Computing models_**
 
 ---
 
@@ -134,7 +134,7 @@
 
 ---
 
-## <b>SECTION 4: Cloud Development Models</b>
+## **_SECTION 4: Cloud Development Models_**
 
 ---
 
@@ -164,15 +164,15 @@
     -   Popular in the Fin Tech space
 
 <br>
-<blockquote>When you think of Cloud, think of small startups.</blockquote>
-<blockquote>When you think of Hybrid, think of Fin Tech Companies</blockquote>
-<blockquote>When you think of On-premise, think of large old companies or companies that are beholden to Government Regulations.</blockquote>
+>When you think of Cloud, think of small startups.
+>When you think of Hybrid, think of Fin Tech Companies
+>When you think of On-premise, think of large old companies or companies that are beholden to Government Regulations.
 <br>
 <br>
 
 ---
 
-## <b><i>SECTION 5</i>: Cloud Hosting</b>
+## **_SECTION 5: Cloud Hosting_**
 
 ---
 
@@ -208,7 +208,7 @@
 
 ---
 
-## <b><i>SECTION 6</i>: What is a Cloud Service Provider?</b>
+## **_SECTION 6: What is a Cloud Service Provider?_**
 
 ---
 
@@ -231,13 +231,13 @@ Common Cloud Services
 -   Storage​- Imagine having a virtual hard-drive that​ can store files
 -   Databases​ - Imagine a virtual database for storing and reporting data or a database for general purpose web-application
 
-<blockquote>Note: - AWS has over 200+ cloud services</blockquote>
+> Note: - AWS has over 200+ cloud services
 
 <br>
 
 ---
 
-## <b><i>SECTION 7</i>: What is a Cloud Service Provider?</b>
+## **_SECTION 7: What is a Cloud Service Provider?_**
 
 ---
 
@@ -250,7 +250,7 @@ Common Cloud Services
 
 ---
 
-## <b><i>SECTION 8</i>: Total Cost of Ownership</b>
+## **_SECTION 8: Total Cost of Ownership_**
 
 ---
 
@@ -269,7 +269,7 @@ AWS Provides the TCO Calculator service to help companies with this calculation.
 
 ---
 
-## <b><i>SECTION 9</i>: CAPEX vs OPEX</b>
+## **_SECTION 9: CAPEX vs OPEX_**
 
 ---
 
@@ -279,7 +279,7 @@ AWS Provides the TCO Calculator service to help companies with this calculation.
 
 <br>
 
-### <b>Capital Expenditure (CAPEX)</b>
+### **_Capital Expenditure (CAPEX)_**
 
 Spending money upfront on physical infrastructure deducting that expense from your tax bill over time.
 
@@ -292,7 +292,7 @@ Spending money upfront on physical infrastructure deducting that expense from yo
 -   Technical Personal
 -   With Capital Expenses, you have to guess upfront what you plan to spend
 
-### <b>Operational Expenditure (OPEX)</b>
+### **_Operational Expenditure (OPEX)_**
 
 The costs associated with an on-premises data center that has shifted the cost to the service provider. The customer only has to be concerned with non-physical costs.
 
@@ -308,7 +308,7 @@ The costs associated with an on-premises data center that has shifted the cost t
 
 ---
 
-## <b><i>SECTION 10</i>: Cloud Architecture Terminologies</b>
+## **_SECTION 10: Cloud Architecture Terminologies_**
 
 ---
 
@@ -316,15 +316,15 @@ The costs associated with an on-premises data center that has shifted the cost t
 
 ### Cloud Architecture Terminologies
 
--   <b>Availability</b> - Your ability to ensure service remains available - Highly Available (HA)
--   <b>Scalability</b> - Your ability to grow rapidly or unimpeded
--   <b>Elasticity</b> - Your ability to shrink and grow to meet the demand
--   <b>Fault Tolerance</b> - Your ability to prevent a failure
--   <b>Disaster Recovery</b> - Your ability to recover from failure - Highly Durable (DR)
+-   **_Availability_** - Your ability to ensure service remains available - Highly Available (HA)
+-   **_Scalability_** - Your ability to grow rapidly or unimpeded
+-   **_Elasticity_** - Your ability to shrink and grow to meet the demand
+-   **_Fault Tolerance_** - Your ability to prevent a failure
+-   **_Disaster Recovery_** - Your ability to recover from failure - Highly Durable (DR)
 
 <br>
 
-## <b>1. High Availability</b>
+## **_1. High Availability_**
 
 ---
 
@@ -347,7 +347,7 @@ A load balancer allows you to evenly distribute traffic to multiple servers in o
 
 <br>
 
-## <b>2. High Scalability</b>
+## **_2. High Scalability_**
 
 ---
 
@@ -365,7 +365,7 @@ Horizontal Scaling is known as Scaling Out (When Add more servers of the same si
 
 <br>
 
-## <b>3. High Elasticity</b>
+## **_3. High Elasticity_**
 
 ---
 
@@ -389,7 +389,7 @@ Scaling In — Removing more servers of the same size
 
 <br>
 
-## <b>4. Fault Tolerance</b>
+## **_4. Fault Tolerance_**
 
 ---
 
@@ -413,7 +413,7 @@ Scaling In — Removing more servers of the same size
 
 <br>
 
-## <b>5. High Durability</b>
+## **_5. High Durability_**
 
 ---
 
