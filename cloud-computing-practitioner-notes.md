@@ -34,7 +34,7 @@
 
 ---
 
-## <b> SECTION 2: Six Advantages and Benefits</b>
+## <b>SECTION 2: Six Advantages and Benefits</b>
 
 ---
 
@@ -202,3 +202,43 @@
     -   Multiple physical machines that act as one system ​
     -   The system is abstracted into multiple cloud services​
     -   Flexible, Scalable, Secure, Cost-Effective, High Configurability​
+
+<br>
+<br>
+
+---
+
+## <b><i>SECTION 6</i>: What is a Cloud Service Provider?</b>
+
+---
+
+<br>
+
+    A Cloud Service Provider - is a company which provides multiple Cloud Services, ​and those Cloud Services can be chained together to create cloud architectures​
+
+Most commonly through internet-hosted computing, storage, and software services.
+
+The Big Three Service Providers
+
+-   Amazon Web Services (AWS) - 32.4% (\$9.8B)​
+-   Microsoft Azure - 7.6% (\$5.3B)
+-   Google Cloud Platform - 6% (\$1.8B)
+
+Common Cloud Services
+
+-   Compute​ - Imagine having a virtual computer that​ can run application, programs and code.
+-   Networking​ - Imagine having a virtual network that allows you to define internet connections or network isolations
+-   Storage​- Imagine having a virtual hard-drive that​ can store files
+-   Databases​ - Imagine a virtual database for storing and reporting data or a database for general purpose web-application
+
+<blockquote>Note: - AWS has over 200+ cloud services</blockquote>
+
+<br>
+
+---
+
+## <b><i>SECTION 7</i>: What is a Cloud Service Provider?</b>
+
+---
+
+<br>
