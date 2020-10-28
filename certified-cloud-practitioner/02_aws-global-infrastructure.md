@@ -137,16 +137,21 @@ Its common practice to run workloads in at least​ 3 AZs to ensure services rem
 
 ## GovCloud
 
-**_Key Points_**:
+**AWS GovCloud** Regions allow customers to host sensitive Controlled Unclassified Information and other types of regulated workloads.
 
--   AWS GovCloud Regions allow customers to host sensitive Controlled Unclassified Information and other types of regulated workloads.
--   GovCloud Regions are only operate by employees who are U.S. citizens on U.S. soil.
+-   GovCloud Regions are only operated by employees who are U.S. citizens on U.S. soil.
 -   Only accessible to U.S. entities and account state holders who pass a screening process.
--   Customers can architect secure cloud solutions that comply with: - FedRAMP High baseline - DOJ's Criminal Justice Information Systems (CJIS) Security Policy - U.S. International Traffic in Arms Regulations (TAR) - Export Administration Regulations (EAR) - Department of Defense (DoD) Cloud Computing Security Requirements Guide
-    GovCloud Regions are currently only in the US.
+-   Customers can architect secure cloud solutions that comply with:
+    -   FedRAMP High baseline
+    -   DOJ's Criminal Justice Information Systems (CJIS) Security Policy
+    -   U.S. International Traffic in Arms Regulations (TAR)
+    -   Export Administration Regulations (EAR)
+    -   Department of Defense (DoD) Cloud Computing - Security Requirements Guide
 
-You can view their regions on AWS Map of Regions and Edge Networks.
-You can view more about GovCloud on the official AWS GovCloud page.
+**GovCloud Regions are currently only in the US.**
+
+-   You can view their regions on AWS Map of Regions and Edge Networks.
+-   You can view more about GovCloud on the official AWS GovCloud page.
 
 <br>
 
@@ -158,9 +163,9 @@ You can view more about GovCloud on the official AWS GovCloud page.
 
 <br>
 
-Direct Connect Locations - are trusted third-party datacenters that you can establish a dedicated high speed, low-latency connection from your on-premise to the AWS network.​
+**Direct Connect Locations** - are <code>trusted third-party datacenters</code> that you can establish a dedicated high speed, low-latency connection from your on-premise to the AWS network.​
 
-DirectConnect connections are always established through a third-party provider. These APN (Amazon Partner Network) Partners can help you establish network circuits between an AWS Direct Connect location and your datacenter, office, or colocation environment, or assist you in constructing a hybrid environment.
+-   **DirectConnect connections** are always established through a <code>third-party provider</code>. These APN (Amazon Partner Network) Partners can help you establish network circuits between an AWS Direct Connect location and your datacenter, office, or colocation environment, or assist you in constructing a **_hybrid environment_**.
 
 <br>
 
@@ -171,3 +176,23 @@ DirectConnect connections are always established through a third-party provider.
 ---
 
 <br>
+
+<u>**Local Zones**</u> - are datacenters located very close to a density populated area to provide **_single-digit millisecond low latency performance_** (eg. 7ms) for that area.
+
+**Los Angeles, California** was the first Local Zone to be deployed​
+
+-   It is a logical extension of the US-West Region​
+-   The Identifier looks like the following: us-west-2-lax-1a​
+-   Only specific AWS Services have been made available​
+    -   EC2 Instance Types (T3, C5, R5, R5d, I3en, G4)​
+    -   EBS (io1 and gp2)​
+    -   Amazon FSx​
+    -   Application Load Balancer​
+    -   Amazon VPC​
+
+**The purpose of Local Zone is to support highly-demanding applications sensitive to latency:​**
+
+-   Media & Entertainment​
+-   Electronic Design Automation​
+-   Ad-Tech​
+-   Machine Learning
