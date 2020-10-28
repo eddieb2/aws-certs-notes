@@ -1,15 +1,43 @@
-<h1>Cloud Concepts </h1>
+# <b>Cloud Concepts</b>
 
-<h2>What is Cloud Computing? </h2>
-<hr>
+<br>
+
+---
+
+## <b>SECTION 1: What is Cloud Computing?</b>
+
+---
+
 <br>
 
     The practice of using a network of remote servers hosted on the internet to store, manage, and process data, rather than on a local server or personal computer.
 
 <br>
 
-<h2>Six Advantages and Benefits</h2>
-<hr>
+## On-premise vs Cloud Providers:
+
+### On-premise
+
+-   You own the servers
+-   You hire the IT people
+-   You pay or rent the real-estate
+-   You take all the risk.
+
+### Cloud Providers
+
+-   Someone else owns the servers
+-   Someone else hires the IT people
+-   Someone else pays or rents the real-estate
+-   You are responsible for configuring your cloud services and code, someone else takes care of the rest
+    <br>
+    <br>
+
+---
+
+## <b> SECTION 2: Six Advantages and Benefits</b>
+
+---
+
 <br>
 
 -   Trade capital expense for variable expense
@@ -50,9 +78,13 @@
 
     -   In minutes you can quickly run servers in Asia, Europe and North America.
 
-## Cloud Computing models
+<br>
 
-<hr>
+---
+
+## <b>SECTION 3: Cloud Computing models</b>
+
+---
 
 ### There are three main models of Cloud Computing:
 
@@ -98,11 +130,13 @@
 -   Gmail
 -   Adobe Creative Cloud
 
----
-
 <br>
 
-## Cloud Development Models
+---
+
+## <b>SECTION 4: Cloud Development Models</b>
+
+---
 
 ### There are three different types of deployment models for Cloud Computing.
 
@@ -133,3 +167,38 @@
 <blockquote>When you think of Cloud, think of small startups.</blockquote>
 <blockquote>When you think of Hybrid, think of Fin Tech Companies</blockquote>
 <blockquote>When you think of On-premise, think of large old companies or companies that are beholden to Government Regulations.</blockquote>
+<br>
+<br>
+
+---
+
+## <b><i>SECTION 5</i>: Cloud Hosting</b>
+
+---
+
+<br>
+
+### Types of Hosting
+
+-   Dedicated Server​
+
+    -   One physical machine dedicated to single a business​
+    -   Runs a single web-app/site.​
+    -   Very Expensive, High Maintenance, \*High Security​
+
+-   Virtual Private Server​
+
+    -   The physical machine is virtualized into sub-machines
+    -   Runs multiple web-apps/sites​
+    -   Better Utilization and Isolation of Resources​
+
+-   Shared Hosting​
+
+    -   One physical machine, shared by hundred of businesses​
+    -   Relies on most tenants under-utilizing their resources.​
+    -   Very Cheap, Limited functionality, Poor Isolation​
+
+-   Cloud Hosting​
+    -   Multiple physical machines that act as one system ​
+    -   The system is abstracted into multiple cloud services​
+    -   Flexible, Scalable, Secure, Cost-Effective, High Configurability​
